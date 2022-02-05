@@ -19,7 +19,7 @@ This repository contains a full-working JavaFX template with a Maven setup.
 
 | Dependency            | Version |
 |-----------------------|---------|
-| Java                  | 11      |
+| Java                  | 17      |
 | JavaFX                | 17      |
 | Log4j                 | 2.17.1  |
 | Maven Compiler Plugin | 3.9.0   |
