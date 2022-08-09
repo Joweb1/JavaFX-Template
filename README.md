@@ -18,21 +18,23 @@ This repository contains a full-working JavaFX template with a Maven setup.
 
 ## Included dependencies
 
+Consider [pom.xml](pom.xml) for more detailed information.
+
 | Dependency            | Version |
 |-----------------------|---------|
 | Java                  | 17      |
-| JavaFX                | 17      |
-| Log4j                 | 2.17.1  |
-| Maven Compiler Plugin | 3.9.0   |
-| Maven Shade Plugin    | 3.2.4   |
-| JavaFX Maven Plugin   | 0.0.4   |
+| JavaFX                | 17.0.2  |
+| Log4j                 | 2.18.0  |
+| Maven Compiler Plugin | 3.10.1  |
+| Maven Shade Plugin    | 3.3.0   |
+| JavaFX Maven Plugin   | 0.0.8   |
 
 __For JavaFX the following packages are used:__
 
 * javafx-base
 * javafx-controls
 * javafx-fxml
-* javafx-graphics (for Windows, Linux and Mac)
+* javafx-graphics (you can choose between Windows, Linux and Mac)
 
 ## Run the application via Maven
 
