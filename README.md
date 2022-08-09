@@ -1,4 +1,5 @@
-# JavaFX Template
+JavaFX Template
+===============
 
 This repository contains a full-working JavaFX template with a Maven setup.
 
@@ -37,10 +38,9 @@ __For JavaFX the following packages are used:__
 
 1. Set the correct `javafx-graphics` classifier (`win`, `linux` or `mac`) inside [pom.xml](pom.xml)
 
-2. You can simply use the Maven goal `javafx:run` to start the application.
+2. Run `mvn javafx:run`
 
 ## Build and start JAR
 
-1. Execute the Maven goal `package`
-2. The JAR file _./target/javafx-template-1.0-SNAPSHOT.jar_ includes all dependencies and can directly
-   be started with a double click if Java 11 is installed on the device
+1. Run `mvn clean package`
+2. Run `java -jar ./target/javafx-template-1.0-SNAPSHOT.jar`
