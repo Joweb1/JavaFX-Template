@@ -33,12 +33,11 @@ __For JavaFX the following packages are used:__
 * javafx-fxml
 * javafx-graphics (for Windows, Linux and Mac)
 
-## Run the application
+## Run the application via Maven
 
-You can simply use the Maven goal `javafx:run` to start the application.
+1. Set the correct `javafx-graphics` classifier (`win`, `linux` or `mac`) inside [pom.xml](pom.xml)
 
-As an alternative you can run the `Start` class inside your favorite IDE after having downloaded the needed dependencies 
-via Maven.
+2. You can simply use the Maven goal `javafx:run` to start the application.
 
 ## Build and start JAR
 
