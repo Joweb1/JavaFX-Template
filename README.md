@@ -45,4 +45,4 @@ __For JavaFX the following packages are used:__
 ## Build and start JAR
 
 1. Run `mvn clean package`
-2. Run `java -jar ./target/javafx-template-1.0-SNAPSHOT.jar`
+2. Run `java -jar ./target/javafx-template.jar`
