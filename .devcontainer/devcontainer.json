@@ -1,6 +1,8 @@
 {
   "name": "JavaFX Maven",
-  "image": "mcr.microsoft.com/devcontainers/java",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "mvn clean install",
   "customizations": {
     "vscode": {
